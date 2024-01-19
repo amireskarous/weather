@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+.nav{
+    padding: 50px 15px;
+}
+
+
+.img{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right:10px;
+}
+
+.logo-caption{
+    vertical-align: middle;
+    display: inline-block;
+}
+.logo-caption h1{
+    font-size: 1.1428571429em;
+}
+small{
+    font-size: 0.7142857143em;
+    display: block;
+    color: #bfc1c8;
+}
+nav a.logo{
+text-decoration: none ;
+float: left;
+}
+.nav .cont{
+    width: 100%;
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.listitems ul li{
+    list-style: none;
+    float: left;
+    margin: 0 5px;
+}
+.listitems ul li a{
+    font-size: 20px;
+    font-weight: 400 !important;
+    color: white !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    padding: 5px 25px;
+    text-decoration: none;
+}
+.listitems ul li a.home{
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+.revet ul li a.home{
+    color: #009ad8 !important;
+}
+.listitems ul li a:hover{
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+.nav .clr{
+    clear: both;
+}
+
+
+.hero{
+    background-image: url("../images/banner.png");
+    background-position: center;
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+form{
+    position: relative;
+    margin-bottom: 70px;
+}
+
+form input[type="text"]{
+    border-radius: 30px;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+form input[type="submit"]{
+    position: absolute;
+    border-radius: 30px;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    background: #009ad8;
+}
+.container .content{
+    
+     background: #2a2d3e73; 
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden; */
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+/* .content .todey,
+.content .nextday,
+.content .thridday{
+    width: 33.3%;
+} */
+.content .header{
+    padding: 10px 15px;
+    background: #262936c6;
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+
+}
+.content .todaydata{
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #262936;
+    padding: 50px 20px 10px;
+    height: 300px;
+}
+.content .nextday .headnext{
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 400;
+    background-color: #262936;
+    
+}
+.content .nextdata{
+    background-color: #262936c6; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 50px 20px 10px;
+    text-align: center;
+    height: 300px;
+}
+
+.content .thridday .headthrid{
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: 400;
+    background: #262936c6;
+}
+.content .thriddata{
+   
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #262936;
+    padding: 50px 20px 10px;
+    /* text-align: center; */
+   
+    height: 300px;
+}
+.todaydata .num{
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    font-weight: 900;
+}
+.todaydata .todaydataImage{
+    display: inline-block;
+    vertical-align: middle;
+}
+ .weatherstatusoftoday,
+ .weatherstatusofnextday,
+ .weatherstatusofthird{
+    color: #009ad8;
+    margin: 20px 0;
+}
+.footer{
+    background-color: #262936;
+    padding: 50px 0;
+}
+.footer .social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    
+    transition: 0.3s all;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+.footer .social-links a:hover{
+    background: #009ad8;
+    color: white;
+}
+.breadcrumb{
+    background: #262936;
+    border-radius: 40px;
+    padding: 20px 30px;
+    font-size: 13px;
+    font-size: 0.9285714286em
+}
+.listitems ul li a.contact{
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+.revet ul li a.contact{
+  
+    color: #009ad8 !important;
+}
+
+.breadcrumb  a{
+    text-decoration: none;
+    color: #bfc1c8;
+    position: relative;
+}
+.breadcrumb  a:hover::before{
+    content: " ";
+    width: 35px;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #bfc1c8;
+    
+
+}
+.breadcrumb  a::after{
+    content: " ";
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 7px;
+    background: url("../images/arrow-gray.png") no-repeat;
+    margin: 0 10px;
+}
+.contactdetails{
+    background: #262936;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.map{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 220px;
+}
+
+.pargrarh {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 20px;
+}
+.contact_info a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: #bfc1c8;
+}
+input.inputborder{
+   
+    border: 2px solid #393c48;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    outline: none;
+    width: 100%;
+}
+input.inputborder:hover,
+textarea:hover{
+    border-color: #009ad8;
+}
+textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    color: white;
+    border: 2px solid #393c48;
+    background: transparent;
+    outline: none;
+    border-radius: 30px;
+    height: 160px;
+}
+.text-right{
+    width: fit-content;
+    margin-left: auto;
+}
+button{
+    padding: 5px 10px;
+    background-color:#009ad8 ;
+    border-radius: 30px;
+    border-color: transparent;
+    font-size: 20px;
+    color: white;
+}
+
+.nav .listitems button{
+    display: none;
+}
+.revet{
+    background-color: #262936;
+    margin-top: 20px;
+    /* display: none; */
+    border-radius: 10px;
+}
+.revet .list{
+    list-style: none;
+    width: 100%;
+}
+.revet .list a{
+text-decoration: none;
+color: white;
+
+/* padding: 20px 0; */
+}
+.revet .list li{
+    margin: 20px 0;
+    font-size: 20px;
+    border-bottom: 1px solid #bfc1c8;
+    width: 100%;
+}
+/* ///////////////////////////////////////////////////////////// */
+ @media screen  and  (max-width:1000px){
+    .nav .listitems button{
+        display: block;
+    }
+    .nav .listitems .list{
+        display: none;
+    }
+
+
+    
+} 
+
+
+
+
+
